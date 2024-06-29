@@ -1,0 +1,101 @@
+/* styles.css */
+*{
+  font-family: "Calibri";
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero {
+  background-image: url('/pexels-karolina-grabowska-4202924.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 100px;
+  margin-bottom: 20px;
+  top: 10px;
+  text-align: center;
+  color: green;
+}
+
+.hero h3 {
+  width: 600px;
+  text-align: center;
+}
+
+.hero button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 40%;
+}
+
+.product-showcase {
+  background-color: #f7f7f7;
+  padding: 40px;
+}
+
+.product-showcase img{
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.heading{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  color: black;
+  text-decoration: none;
+}
+
+.features {
+  background-color: #fff;
+  padding: 40px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.features li {
+  margin-bottom: 20px;
+}
+
+.features li i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.cta {
+  background-color: #333;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.cta button {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
